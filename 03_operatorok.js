@@ -47,3 +47,19 @@ console.log(`x=${x}, y=${y}`);
 x=5; 
 y=x--; // posztdekrement 
 console.log(`x=${x}, y=${y}`); 
+
+console.log('Addig jár a korsó a kútra,'+' amíg be nem vezetik a vizet.'); 
+let c = 'kocka'; 
+c += 'has'; // x értéke így: 'kockahas'
+
+const gyumolcs = { fa: 'alma', fajta: 'Starking', szin: 'piros' }; 
+console.log('fajta' in gyumolcs); //true
+
+function myfunction() { 
+    let valtozo = 5;
+    return "valtozo" 
+}
+let result = myfunction
+console.log(myfunction)
+console.log(valtozo)
+console.log(valtozo2)
